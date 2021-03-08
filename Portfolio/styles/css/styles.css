@@ -120,7 +120,7 @@ main{
 /* web-pages section item*/
 
 .main-scroll #service-section #web-pages-expand.service-expand{
-    background: yellow;
+    background: rgb(4, 5, 80);
 }
 
 .main-scroll #service-section #web-pages-expand.service-expand .service-item-media{
@@ -148,7 +148,7 @@ main{
 /* spa section item*/
 
 .main-scroll #service-section #spa-expand.service-expand{
-    background: yellow;
+    background: rgb(247, 237, 147);
 }
 .main-scroll #service-section #spa-expand.service-expand .service-item-media{
 
@@ -176,7 +176,7 @@ main{
 /* salesforce section item*/
 
 .main-scroll #service-section #salesforce-expand.service-expand{
-    background: yellow;
+    background: rgb(216, 95, 95);
 }
 .main-scroll #service-section #salesforce-expand.service-expand .service-item-media{
 
