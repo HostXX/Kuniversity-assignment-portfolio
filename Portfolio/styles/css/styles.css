@@ -11,8 +11,86 @@ img{
     height: 200px;
 }
 
+
 main{
     display:flex;
     flex-direction: row;
-   
+    width: 1024px;
+    margin: auto;
 }
+
+
+/* principal presentation banner */
+
+.main-scroll #greetings{
+    height: 100px;
+    
+}
+
+.main-scroll #greetings h1{
+    color : red;
+}
+
+.main-scroll #greetings h3{
+    color : blue;
+}
+
+.main-scroll #presentation h4{
+    color : blue;
+}
+
+
+/* principal presentation banner end */
+
+
+/* ----------------------------------------------------------------------------------------- */
+
+
+/* services I offer  */
+
+.main-scroll #service-compact-section #services-compact .service-compact{
+    height: 200px;
+    display: flex;
+}
+
+.main-scroll #service-compact-section #services-compact .service-compact:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.main-scroll #service-compact-section #services-compact .service-compact .left{
+    width: 60%;
+}
+
+.main-scroll #service-compact-section #services-compact .service-compact .right{
+    width:40%;
+}
+
+.main-scroll #service-compact-section #services-compact .service-compact #web-pages-description{
+   background: chartreuse;
+}
+
+.main-scroll #service-compact-section #services-compact .service-compact #web-pages{
+    background: violet;
+}
+
+.main-scroll #service-compact-section #services-compact .service-compact #spa{
+    background: red;
+ }
+ 
+ .main-scroll #service-compact-section #services-compact .service-compact #spa-description{
+     background: wheat;
+ }
+
+ .main-scroll #service-compact-section #services-compact .service-compact #salesforce-description{
+    background: chartreuse;
+ }
+ 
+ .main-scroll #service-compact-section #services-compact .service-compact #salesforce{
+     background: turquoise;
+ }
+ 
+
+
+
+
+/* services I offer end */
